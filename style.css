@@ -1,0 +1,124 @@
+/* .login {
+  width: 320px;
+  height: 568px;
+  border: black solid 1px;
+  margin: auto;
+  margin-top: 50px;
+} */
+
+.fundi {
+  width: 79px;
+  height: 26.4px;
+  background-color: #888888;
+  margin-top: 104px;
+  margin-left: 120px;
+  margin-right: 121px;
+}
+
+button {
+  width: 256px;
+  height: 48px;
+  border-radius: 24px;
+  background-color: #333333;
+  margin-top: 108px;
+  margin-left: 32px;
+  margin-right: 32px;
+  margin-bottom: 32px;
+}
+
+input {
+  width: 256px;
+  height: 30px;
+  border-radius: 4px;
+  border: solid 1px #979797;
+  background-color: #eeeeee;
+}
+
+#em_label {
+  /* font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: #333333; */
+  margin-left: 32px;
+  margin-bottom: 0px;
+}
+
+#pw_label {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: #333333;
+  margin-left: 32px;
+  margin-top: 950px;
+}
+
+.Submit {
+  width: 57px;
+  height: 21px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+#em {
+  margin-left: 32px;
+  margin-right: 32px;
+  margin-top: 32px;
+}
+
+#pw {
+  margin-left: 32px;
+  margin-right: 32px;
+  margin-top: 52px;
+}
+
+#visible {
+  border-radius: 35px;
+  color: rebeccapurple;
+}
+
+#incorrectMessage {
+  margin-left: 52px;
+  margin-right: 32px;
+}
+
+#signUp {
+  color: black;
+  margin-left: 80px;
+  margin-top: 0px;
+}
+
+span {
+  color: blue;
+  margin-left: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#visible {
+  position: absolute;
+  background-color: blue;
+  width: 15px;
+  height: 15px;
+  border-radius: 50px;
+  margin-left: 320px;
+  margin-top: -25px;
+}
+
+/* .register {
+  display: none;
+} */

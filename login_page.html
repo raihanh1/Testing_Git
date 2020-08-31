@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="./jv.js"></script>
+    <title>Fundi Login Page</title>
+</head>
+
+<body>
+    <!-- <div class="signUPP">
+        <form class="register" style="display: none;">
+            <label for="email" id="em_label">Email</id=></label>
+            <input id="em" type="text" placeholder="Enter dddddd" name="email" required size="64" maxlength="64"
+                pattern=".+@.+.com" />
+            <label for="psw"><span id="pw_label">Password</span></label>
+            <input id="pw" type="password" placeholder="Enter Password" pattern=".{8,}" name="psw" required />
+            <div id="visible" onclick="myFunction()"></div>
+            <div id="incorrectMessage" style="visibility:hidden;">Email or password was incorrect</div>
+            <button onclick="check(this.form)" type="submit">Login</button>
+            <div id="signUp">Not a member?<a href="http://www.google.com/"><span>Sign Up</span></a></div>
+        </form>
+    </div> -->
+    <div class="login">
+        <div class="fundi"></div>
+        <form class="container">
+            <label for="email" id="em_label">Email</id=></label>
+            <input id="em" type="text" placeholder="Enter Email" name="email" required size="64" maxlength="64"
+                pattern=".+@.+.com" />
+            <label for="psw"><span id="pw_label">Password</span></label>
+            <input id="pw" type="password" placeholder="Enter Password" pattern=".{8,}" name="psw" required />
+            <div id="visible" onclick="myFunction()"></div>
+            <div id="incorrectMessage" style="visibility:hidden;">Email or password was incorrect</div>
+            <button onclick="check(this.form)" type="submit">Login</button>
+            <div id="signUp" onclick="registrationForm()">Not a member?<a href="#"><span>Sign Up</span></a>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
